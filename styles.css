@@ -1,11 +1,13 @@
-*{
+* {
   box-sizing: border-box;
 }
 body {
   background-color: azure;
+  width: 1281px;
+  margin: 0 auto;
 }
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -13,28 +15,34 @@ h1 {
   font-size: 200px;
   color: white;
   text-shadow: black;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 1281px;
+  height: 500px;
+  object-fit: cover;
 }
 div.containerOne {
- display: flex;
-  justify-content: center;
- margin: 20px;
+  /* display: flex; */
+  /* justify-content: center; */
+  position: relative;
+  /* margin: 20%; */
 }
 div.containerTwo {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-color: rgb(227, 240, 240);
-  font-family: 'Roboto Mono', monospace;
-  margin-left: 5%;
-  margin-right: 5%;
+  font-family: "Roboto Mono", monospace;
 }
- h2 {
-  font-family: 'Roboto Mono', monospace;
+h2 {
+  font-family: "Roboto Mono", monospace;
 }
 p {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: small;
 }
-input[type=submit] {
-  font-family: 'Roboto Mono', monospace;
+input[type="submit"] {
+  font-family: "Roboto Mono", monospace;
 }
